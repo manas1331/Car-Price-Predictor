@@ -2,7 +2,7 @@
 
 ## View the live website 
 Click the link to view the website 
-[https://stock-price-predictor-using-ml.onrender.com/](https://stock-price-predictor-using-ml.onrender.com/)
+[(https://car-price-predictor-yrn6.onrender.com/)](https://car-price-predictor-yrn6.onrender.com/)
 
 ## Project Overview
 This project provides a web-based application for predicting car prices using machine learning models. Users can interact with the model and view predictions in real-time through a user-friendly interface built using streamlit framework.
