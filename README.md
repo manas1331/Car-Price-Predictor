@@ -7,36 +7,39 @@ Click the link to view the website
 ## Project Overview
 This project provides a web-based application for predicting car prices using machine learning models. Users can interact with the model and view predictions in real-time through a user-friendly interface built using streamlit framework.
 
+
 ## Features
 
-### Data Collection
-- **Historical Car Data**: Collects data on car prices, features, and specifications from various sources including APIs and web scraping.
-- **Real-time Data**: Allows users to input current car details for instant price predictions.
+- **Custom UI Styling**: 
+  - The interface is enhanced with custom CSS for a modern, polished appearance.
+  - Styled buttons and select boxes for an intuitive user experience.
+  
+- **Title Banner**: 
+  - A visually appealing banner that displays the title "Car Price Prediction Using Machine Learning" with gradient styling.
+  
+- **Introductory Text**: 
+  - Brief and user-friendly explanation to guide sellers in estimating the value of their car.
 
-### Data Preprocessing
-- **Data Cleaning**: Handles missing values, removes outliers, and corrects inconsistencies in the dataset.
-- **Feature Engineering**: Creates and selects relevant features such as car make, model, year, mileage, engine size, and other attributes.
-- **Normalization/Standardization**: Scales numerical features to ensure they are on a comparable scale for better model performance.
+- **User Input Fields**:
+  - `Ex-showroom price`: Input for the car's original price (in Lakhs).
+  - `Distance driven`: Input for kilometers driven by the car.
+  - `Fuel type`: Choose between Petrol, Diesel, or CNG.
+  - `Seller type`: Select whether you're a dealer or an individual.
+  - `Transmission type`: Choose between Manual or Automatic transmission.
+  - `Previous owners`: Select the number of previous owners.
+  - `Year of purchase`: Enter the year of car purchase, and the app calculates the car's age.
 
-### Model Training
-- **Algorithm Selection**: Utilizes machine learning models such as Linear Regression, Decision Trees, Random Forests, or Gradient Boosting Machines.
-- **Hyperparameter Tuning**: Optimizes model parameters for improved accuracy and performance.
-- **Cross-validation**: Uses techniques like k-fold cross-validation to validate the model's performance.
+- **Prediction Button**: 
+  - A "Predict Car Price" button triggers the machine learning model to estimate the car’s price.
 
-### Prediction
-- **Price Estimation**: Generates predictions for car prices based on user inputs or historical data.
-- **Confidence Intervals**: Optionally provides confidence intervals or prediction ranges to indicate the reliability of the predictions.
+- **Machine Learning Model**:
+  - The app uses an XGBoost regression model to predict the car's price based on the provided inputs.
 
-### Web Interface
-- **User Input Form**: Allows users to input car details including make, model, year, mileage, and other features.
-- **Prediction Display**: Shows the predicted car price in a user-friendly format.
-
-
-### Visualization
-- **Price Distribution**: Displays charts showing the distribution of car prices across different makes, models, and years.
-- **Feature Impact**: Visualizes how different features (e.g., mileage, year) affect car prices using plots like feature importance or partial dependence plots.
-- **Model Performance**: Shows metrics such as mean absolute error (MAE), root mean squared error (RMSE), or R-squared values to convey the model’s accuracy.
-
+- **Result Display**: 
+  - The predicted price is displayed in a user-friendly format. If the prediction is successful, celebratory balloons are shown.
+  
+- **Error Handling**: 
+  - If something goes wrong with the input or prediction, users are notified with an error message for correction.
 
 ## Technologies Used
 
