@@ -33,7 +33,7 @@ This project provides a web-based application for predicting car prices using ma
   - A "Predict Car Price" button triggers the machine learning model to estimate the car’s price.
 
 - **Machine Learning Model**:
-  - The app uses an XGBoost regression model to predict the car's price based on the provided inputs.
+  - The app uses an `XGBoost regression model` to predict the car's price based on the provided inputs.
 
 - **Result Display**: 
   - The predicted price is displayed in a user-friendly format. If the prediction is successful, celebratory balloons are shown.
